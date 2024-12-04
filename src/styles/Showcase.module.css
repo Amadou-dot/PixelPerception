@@ -1,0 +1,44 @@
+.showcase {
+  padding: 40px 80px;
+  margin-top: 20px;
+}
+
+.showcase h3 {
+  color: #fff;
+  font-size: 5.6rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.showcase h3 span {
+    font-size: 5.6rem;
+    text-transform: capitalize;
+}
+
+.showcase .textSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.showcase .textSection p {
+  width: 50%;
+  text-align: justify;
+}
+
+.showcase .textSection .images,
+.showcase .imageSection {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.showcase .textSection .images img,
+.showcase .imageSection img {
+  width: 256px;
+  border-radius: 40px;
+  border: 2px solid #c5c5c5;
+}

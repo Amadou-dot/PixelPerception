@@ -1,0 +1,21 @@
+.services .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 80px 0;
+}
+
+.services .header h3 {
+  color: #fff;
+  font-size: 5.6rem;
+  text-transform: uppercase;
+  width: 60%;
+}
+
+.services .serviceItems {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 80px;
+  padding-bottom: 40px;
+}

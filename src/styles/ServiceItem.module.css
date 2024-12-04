@@ -1,0 +1,63 @@
+.item {
+  background-color: #171717;
+  padding: 20px;
+  border-radius: 40px;
+  width: 25%;
+  /* cursor: pointer; */
+}
+
+.item .title {
+  display: flex;
+  align-items: center;
+  background-color: #2e2c29;
+  padding: 5px 30px 5px 5px;
+  gap: 10px;
+  width: fit-content;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+
+.item .title .gradient {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.item:nth-child(1) .title .gradient {
+  background: linear-gradient(90deg, #ff8c00 0%, #ff0080 100%); /* Innovation */
+}
+
+.item:nth-child(2) .title .gradient {
+  background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%); /* Expertise */
+}
+
+.item:nth-child(3) .title .gradient {
+  background: linear-gradient(90deg, #00ff99 0%, #00ccff 100%); /* Learning */
+}
+
+.item:nth-child(4) .title .gradient {
+  background: linear-gradient(90deg, #ffcc00 0%, #ff3300 100%); /* Network */
+}
+
+.item .description h5 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3.6rem;
+    margin-bottom: 10px;
+}
+
+.item.active {
+    background-color: var(--color-green);
+}
+
+.item.active .title {
+    background-color: #000;
+}
+
+.item.active .description h5 {
+    color: #000;
+}  
+
+.item.active .description p {
+    color: #313131;
+}

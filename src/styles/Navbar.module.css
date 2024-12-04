@@ -1,0 +1,65 @@
+.freeTrial {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 2px;
+}
+
+.freeTrial .logo svg {
+  background: var(--color-green);
+  width: 50px;
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+.freeTrial .navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 20px;
+  background-color: var(--color-dark-shade);
+  gap: 10px;
+  border-radius: 50px;
+}
+
+.freeTrial .navLinks a {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.freeTrial .navLinks p {
+    font-size: 1.3rem;
+}
+
+.freeTrial .navLinks a:hover {
+  color: var(--color-green);
+}
+
+.freeTrial .navLinks .separator {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+
+  background-color: var(--color-green);
+}
+
+.freeTrial .login {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color: var(--color-dark-shade);
+    padding: 4px 4px 4px 14px;
+    border-radius: 50px;
+}
+
+.freeTrial .login img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.freeTrial .login a {
+    color: #fff;
+}

@@ -1,0 +1,76 @@
+.promptSection {
+  padding: 20px;
+}
+
+.promptSection h1 {
+  font-size: 18.2rem;
+  color: #ccc;
+  line-height: 12rem;
+  text-align: center;
+  margin-top: 36px;
+}
+
+.promptSection .promptIMG {
+  position: relative;
+}
+
+.promptSection .promptIMG img {
+  width: 100%;
+  height: 540px;
+  object-position: top center;
+  border-radius: 60px;
+  box-shadow: 0 -30px 40px rgba(0, 0, 0, 1);
+}
+
+.promptSection .promptIMG .promptIMG__overlay {
+  position: absolute;
+  width: 55%;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 20px;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+.promptSection .promptIMG .promptIMG__overlay::placeholder {
+  color: #ccc;
+}
+
+.promptSection .promptIMG .tabs {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  bottom: -5%;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 8px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.promptSection .promptIMG .tabs a {
+  color: #fff;
+  background-color: #231f1c;
+  width: 16rem;
+  padding: 10px;
+  border-radius: 50px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.promptSection .promptIMG .tabs a.active,
+.promptSection .promptIMG .tabs a:hover {
+  background-color: var(--color-green);
+  color: #231f1c;
+}
