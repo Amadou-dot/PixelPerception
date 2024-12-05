@@ -36,5 +36,6 @@ Make sure you have the following software installed on your machine:
 Start the development server:
     ```sh
         npm run dev
+
 Open your browser and navigate to http://localhost:5173 to see the application running.
 
