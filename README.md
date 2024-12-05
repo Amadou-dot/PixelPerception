@@ -33,10 +33,8 @@ Make sure you have the following software installed on your machine:
         npm install
 
 ### Running the Project Locally
-Start the development server:
+4. Start the development server: 
+   ```sh
+   npm run dev
 
-    ```sh
-    npm run dev
-
-Open your browser and navigate to http://localhost:5173 to see the application running.
-
+5. Open your browser and navigate to http://localhost:5173 to see the application running.
