@@ -20,7 +20,7 @@ export default function Navbar() {
       </div>
       <div className={styles.login}>
         <a href='#login'>Login</a>
-        <img src='src\assets\login.JPG' />
+        <img src='login.JPG' />
       </div>
     </nav>
   );

@@ -17,7 +17,7 @@ export default function Hero() {
     <div className={styles.promptSection}>
       <h1>AI INNOVATORS</h1>
       <div className={styles.promptIMG}>
-        <img src='src/assets/header.JPG' alt='' />
+        <img src='header.JPG' alt='' />
         <input className={styles.promptIMG__overlay} type='text' placeholder='Enter your prompt' />
         <div className={styles.tabs}>
           {tabs.map((tab, index) => (

@@ -12,7 +12,7 @@ export default function Video() {
         </h3>
       </div>
       <div className={styles.video}>
-        <img src='src\assets\footer.JPG' alt='' />
+        <img src='footer.JPG' alt='' />
         <button className={styles.play}>
           <svg
             xmlns='http://www.w3.org/2000/svg'

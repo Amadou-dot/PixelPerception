@@ -17,15 +17,15 @@ export default function Showcase() {
           innovation and success in every endeavor.
         </p>
         <div className={styles.images}>
-          <img src='src\assets\img-1.JPG' alt='' />
-          <img src='src\assets\img-2.JPG' alt='' />
-          <img src='src\assets\img-3.JPG' alt='' />
+          <img src='img-1.JPG' alt='' />
+          <img src='img-2.JPG' alt='' />
+          <img src='img-3.JPG' alt='' />
         </div>
       </div>
       <div className={styles.imageSection}>
-        <img src='src\assets\img-4.JPG' alt='' />
-        <img src='src\assets\img-5.JPG' alt='' />
-        <img src='src\assets\img-6.JPG' alt='' />
+        <img src='img-4.JPG' alt='' />
+        <img src='img-5.JPG' alt='' />
+        <img src='img-6.JPG' alt='' />
       </div>
     </div>
   );
