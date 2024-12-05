@@ -34,6 +34,7 @@ Make sure you have the following software installed on your machine:
 
 ### Running the Project Locally
 Start the development server:
+
     ```sh
     npm run dev
 
