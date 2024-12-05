@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  gap: 5px;
+  gap: 0.5rem;
 }
 
 .footer .copyright {
@@ -12,18 +12,18 @@
   justify-content: center;
   padding: 8px 20px;
   background-color: #171717;
-  gap: 10px;
+  gap: 1rem;
   border-radius: 50px;
   width: 100%;
 }
 
 .footer .copyright .separator {
-    width: 5px;
-    height: 5px;
-    background-color: var(--color-green);
-    border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  background-color: var(--color-green);
+  border-radius: 50%;
 }
 
 .footer .copyright p {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }

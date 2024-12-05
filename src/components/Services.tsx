@@ -1,13 +1,14 @@
 import { useState } from 'react';
 import styles from '../styles/Services.module.css';
+import responsive from '../styles/Responsive.module.css';
 import ServiceItem from './ServiceItem';
 
 export default function Services() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   return (
-    <div className={styles.services} id='services'>
-      <div className={styles.header}>
+    <div className={`${styles.services} ${responsive.services}`} id='services'>
+      <div className={`${styles.header} ${responsive.header}`}>
         <h3>Our Services</h3>
         <p>
           At NexaAI, we strive to make AI accessible and beneficial for
@@ -16,7 +17,7 @@ export default function Services() {
           our journey to create a smarter, more interconnected world.
         </p>
       </div>
-      <div className={styles.serviceItems}>
+      <div className={`${styles.serviceItems} ${responsive.serviceItems}`}>
         <ServiceItem
           active={activeIndex === 0}
           title='AI Innovation'

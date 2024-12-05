@@ -1,11 +1,12 @@
 import styles from '../styles/Showcase.module.css';
+import responsive from '../styles/Responsive.module.css';
 export default function Showcase() {
   return (
-    <div className={styles.showcase} id='nexaai'>
+    <div className={`${styles.showcase} ${responsive.showcase}`} id='nexaai'>
       <h3>
         Unleash the potential of AI with <span>NexaAI</span>
       </h3>
-      <div className={styles.textSection}>
+      <div className={`${styles.textSection} ${responsive.textSection}`}>
         <p>
           Dive into the dynamic realm of Artificial Intelligence with NexaAI.
           Whether you're a seasoned expert, a passionate enthusiast, or a
@@ -16,13 +17,13 @@ export default function Showcase() {
           and transform your ideas into reality with the power of AI, driving
           innovation and success in every endeavor.
         </p>
-        <div className={styles.images}>
+        <div className={`${styles.images} ${responsive.images}`}>
           <img src='img-1.JPG' alt='' />
           <img src='img-2.JPG' alt='' />
           <img src='img-3.JPG' alt='' />
         </div>
       </div>
-      <div className={styles.imageSection}>
+      <div className={`${styles.imageSection} ${responsive.imageSection}`}>
         <img src='img-4.JPG' alt='' />
         <img src='img-5.JPG' alt='' />
         <img src='img-6.JPG' alt='' />

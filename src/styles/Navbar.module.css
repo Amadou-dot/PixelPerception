@@ -8,9 +8,9 @@
 
 .freeTrial .logo svg {
   background: var(--color-green);
-  width: 50px;
+  width: 5rem;
   padding: 8px;
-  font-size: 20px;
+  font-size: 2rem;
   border-radius: 50%;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .freeTrial .navLinks p {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 .freeTrial .navLinks a:hover {
@@ -41,25 +41,24 @@
   width: 5px;
   height: 5px;
   border-radius: 50%;
-
   background-color: var(--color-green);
 }
 
 .freeTrial .login {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    background-color: var(--color-dark-shade);
-    padding: 4px 4px 4px 14px;
-    border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: var(--color-dark-shade);
+  padding: 4px 4px 4px 14px;
+  border-radius: 50px;
 }
 
 .freeTrial .login img {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
 }
 
 .freeTrial .login a {
-    color: #fff;
+  color: #fff;
 }

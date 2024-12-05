@@ -1,8 +1,9 @@
 import styles from '../styles/Video.module.css';
+import responsive from '../styles/Responsive.module.css';
 export default function Video() {
   return (
-    <div className={styles.videoSection} id='discover'>
-      <div className={styles.header}>
+    <div className={`${styles.videoSection} ${responsive.videoSection}`} id='discover'>
+      <div className={`${styles.header} ${responsive.header}`}>
         <p>
           Discover our AI tools - from natural language processing to computer
           vision - that revolutionize your work!
@@ -11,9 +12,9 @@ export default function Video() {
           Why choose <span>NexaAI</span>
         </h3>
       </div>
-      <div className={styles.video}>
+      <div className={`${styles.video} ${responsive.video}`}>
         <img src='footer.JPG' alt='' />
-        <button className={styles.play}>
+        <button className={`${styles.play} ${responsive.play}`}>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             viewBox='0 0 24 24'

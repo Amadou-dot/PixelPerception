@@ -1,6 +1,6 @@
 .showcase {
   padding: 40px 80px;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 .showcase h3 {
@@ -8,7 +8,7 @@
   font-size: 5.6rem;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 .showcase h3 span {
@@ -20,8 +20,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
-  margin-bottom: 20px;
+  gap: 4rem;
+  margin-bottom: 2rem;
 }
 
 .showcase .textSection p {
@@ -33,12 +33,12 @@
 .showcase .imageSection {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 2rem;
 }
 
 .showcase .textSection .images img,
 .showcase .imageSection img {
-  width: 256px;
+  width: 25.6rem;
   border-radius: 40px;
   border: 2px solid #c5c5c5;
 }

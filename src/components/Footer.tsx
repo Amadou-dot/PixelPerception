@@ -1,8 +1,9 @@
 import styles from '../styles/Footer.module.css';
+import responsive from '../styles/Responsive.module.css';
 export default function Footer() {
   return (
-    <div className={styles.footer}>
-      <div className={styles.copyright}>
+    <div className={`${styles.footer} ${responsive.footer}`}>
+      <div className={`${styles.copyright} ${responsive.copyright}`}>
         <div className={styles.separator}></div>
         <p>
           Copyright &copy; {new Date().getFullYear()} NexaAI. All rights

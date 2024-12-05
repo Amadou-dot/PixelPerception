@@ -1,0 +1,172 @@
+@media screen and (max-width: 1400px) {
+  .promptSection h1 {
+    font-size: 13.6rem;
+    line-height: 9rem;
+  }
+  .promptSection .promptIMG .tabs a {
+    width: 12rem;
+  }
+
+  .showcase h3,
+  .showcase h3 span {
+    font-size: 4rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .showcase .textSection {
+    flex-direction: column;
+  }
+
+  .showcase .textSection p {
+    width: 100%;
+  }
+
+  .showcase.textSection .images,
+  .showcase .imageSection {
+    margin-left: auto;
+  }
+
+  .showcase.textSection .images img,
+  .showcase .imageSection img {
+    width: 22.8rem;
+  }
+
+  .services .header h3,
+  .videoSection .header h3,
+  .videoSection .header h3 span {
+    font-size: 4rem;
+    width: 75%;
+  }
+
+  .services .serviceItems {
+    flex-wrap: wrap;
+  }
+
+  .item {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .promptSection h1 {
+    font-size: 10rem;
+    line-height: 7rem;
+  }
+
+  .promptSection .promptIMG .promptIMG__overlay {
+    top: 70%;
+    padding: 12px;
+  }
+
+  .promptSection .promptIMG .tabs a {
+    font-size: 1.4rem;
+    width: 10rem;
+  }
+
+  .showcase,
+  .services .serviceItems {
+    padding: 40px;
+  }
+
+  .showcase h3,
+  .showcase h3 span {
+    font-size: 3.4rem;
+  }
+
+  .showcase .textSection .images,
+  .showcase .imageSection {
+    justify-content: center;
+  }
+
+  .showcase .textSection .images img,
+  .showcase .imageSection img {
+    width: 30%;
+  }
+
+  .services .header {
+    flex-direction: column;
+    padding: 40px 40px 0;
+  }
+
+  .services .header h3,
+  .videoSection .header h3,
+  .videoSection .header h3 span {
+    width: 100%;
+  }
+
+  .videoSection .header {
+    flex-direction: column-reverse;
+    padding: 40px 40px 0;
+  }
+
+  .videoSection .video {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .freeTrial .logo svg {
+    padding: 6px;
+  }
+
+  .freeTrial .navLinks a {
+    font-size: 1.4rem;
+  }
+
+  .freeTrial .navLinks p,
+  .footer .copyright p {
+    font-size: 1.2rem;
+  }
+
+  .freeTrial .login img {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+
+  .promptSection h1 {
+    font-size: 6.2rem;
+    line-height: 4.8rem;
+    margin-top: 2rem;
+  }
+
+  .promptSection .promptIMG .promptIMG__overlay {
+    width: 80%;
+  }
+
+  .promptSection .promptIMG .tabs {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    width: 88%;
+    bottom: -6rem;
+    padding: 20px 0;
+  }
+
+  .promptSection .promptIMG .tabs a {
+    width: 30%;
+  }
+
+  .item {
+    width: 100%;
+    text-align: center;
+  }
+
+  .item .title {
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .videoSection .video .play {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .videoSection .header h3,
+  .videoSection .header h3 span,
+  .showcase h3,
+  .showcase h3 span {
+    font-size: 3rem;
+  }
+}
