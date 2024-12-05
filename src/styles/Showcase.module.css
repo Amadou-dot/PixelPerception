@@ -12,8 +12,8 @@
 }
 
 .showcase h3 span {
-    font-size: 5.6rem;
-    text-transform: capitalize;
+  font-size: 5.6rem;
+  text-transform: capitalize;
 }
 
 .showcase .textSection {
@@ -41,4 +41,63 @@
   width: 25.6rem;
   border-radius: 40px;
   border: 2px solid #c5c5c5;
+}
+
+@media screen and (max-width: 1400px) {
+  .showcase h3,
+  .showcase h3 span {
+    font-size: 4rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .showcase .textSection {
+    flex-direction: column;
+  }
+
+  .showcase .textSection p {
+    width: 100%;
+  }
+
+  .showcase.textSection .images,
+  .showcase .imageSection {
+    margin-left: auto;
+  }
+
+  .showcase.textSection .images img,
+  .showcase .imageSection img {
+    width: 22.8rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .showcase,
+  .services .serviceItems {
+    padding: 40px;
+  }
+
+  .showcase h3,
+  .showcase h3 span {
+    font-size: 3.4rem;
+  }
+
+  .showcase .textSection .images,
+  .showcase .imageSection {
+    justify-content: center;
+  }
+
+  .showcase .textSection .images img,
+  .showcase .imageSection img {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .showcase h3,
+  .showcase h3 span {
+    font-size: 3rem;
+  }
+  .showcase h3,
+  .showcase h3 span {
+    font-size: 3rem;
+  }
 }

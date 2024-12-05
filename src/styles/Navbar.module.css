@@ -62,3 +62,25 @@
 .freeTrial .login a {
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .freeTrial .navLinks {
+    display: none; /*TODO Burger Menu */
+  }
+  .freeTrial .logo svg {
+    padding: 6px;
+  }
+
+  .freeTrial .navLinks a {
+    font-size: 1.4rem;
+  }
+
+  .freeTrial .navLinks p {
+    font-size: 1.2rem;
+  }
+
+  .freeTrial .login img {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+}

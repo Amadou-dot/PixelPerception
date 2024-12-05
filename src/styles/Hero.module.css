@@ -74,3 +74,55 @@
   background-color: var(--color-green);
   color: #231f1c;
 }
+
+@media screen and (max-width: 1400px) {
+  .promptSection h1 {
+    font-size: 13.6rem;
+    line-height: 9rem;
+  }
+  .promptSection .promptIMG .tabs a {
+    width: 12rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .promptSection h1 {
+    font-size: 10rem;
+    line-height: 7rem;
+  }
+
+  .promptSection .promptIMG .promptIMG__overlay {
+    top: 70%;
+    padding: 12px;
+  }
+
+  .promptSection .promptIMG .tabs a {
+    font-size: 1.4rem;
+    width: 10rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .promptSection h1 {
+    font-size: 6.2rem;
+    line-height: 4.8rem;
+    margin-top: 2rem;
+  }
+
+  .promptSection .promptIMG .promptIMG__overlay {
+    width: 80%;
+  }
+
+  .promptSection .promptIMG .tabs {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    width: 88%;
+    bottom: -6rem;
+    padding: 20px 0;
+  }
+
+  .promptSection .promptIMG .tabs a {
+    width: 30%;
+  }
+}

@@ -1,47 +1,76 @@
 .videoSection .header h3 {
-    text-align: right;
-    text-transform: uppercase;
-    width: 60%;
-    font-size: 5.6rem;
-    color: #fff;
+  text-align: right;
+  text-transform: uppercase;
+  width: 60%;
+  font-size: 5.6rem;
+  color: #fff;
 }
 
 .videoSection .header h3 span {
-    text-transform: capitalize;
-    font-size: 5.6rem;
+  text-transform: capitalize;
+  font-size: 5.6rem;
 }
 
 .videoSection .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 80px 0;
 }
 
 .videoSection .video {
-    margin: 20px 0 40px;
-    padding: 0 80px;
-    position: relative;
+  margin: 20px 0 40px;
+  padding: 0 80px;
+  position: relative;
 }
 
 .videoSection .video img {
-    width: 100%;
-    height: 420px;
-    object-fit: top center;
-    border-radius: 40px;
+  width: 100%;
+  height: 420px;
+  object-fit: top center;
+  border-radius: 40px;
 }
 
 .videoSection .video .play {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 10rem;
-    height: 10rem;
-    transform: translate(-50%, -50%);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(85, 85, 85, 0.3);
-    background: transparent;
-    border-radius: 50%;;
-    cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10rem;
+  height: 10rem;
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(85, 85, 85, 0.3);
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .videoSection .header h3,
+  .videoSection .header h3 span {
+    width: 100%;
+  }
+
+  .videoSection .header {
+    flex-direction: column-reverse;
+    padding: 40px 40px 0;
+  }
+
+  .videoSection .video {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .videoSection .video .play {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .videoSection .header h3,
+  .videoSection .header h3 span,
+  .showcase h3 {
+    font-size: 3rem;
+  }
 }

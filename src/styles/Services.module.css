@@ -19,3 +19,30 @@
   padding: 80px;
   padding-bottom: 4rem;
 }
+
+@media screen and (max-width: 1400px) {
+  .services .serviceItems {
+    flex-wrap: wrap;
+  }
+  .services .header h3,
+  .videoSection .header h3,
+  .videoSection .header h3 span {
+    font-size: 4rem;
+    width: 75%;
+  }
+
+  .services .serviceItems {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .services .header {
+    flex-direction: column;
+    padding: 40px 40px 0;
+  }
+
+  .services .header h3 {
+    width: 100%;
+  }
+}
