@@ -30,10 +30,11 @@ Make sure you have the following software installed on your machine:
 
 3. Install the dependencies:
     ```sh
-        npm install
+    npm install
 
 ### Running the Project Locally
 Start the development server:
+
     ```sh
     npm run dev
 
