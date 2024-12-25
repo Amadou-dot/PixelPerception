@@ -40,3 +40,4 @@ Start the development server:
 
 Open your browser and navigate to http://localhost:5173 to see the application running.
 
+5. Open your browser and navigate to http://localhost:5173 to see the application running.
