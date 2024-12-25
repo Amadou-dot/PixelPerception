@@ -20,7 +20,6 @@ Make sure you have the following software installed on your machine:
 ### Installation
 
 1. Clone the repository:
-
    ```sh
    git clone https://github.com/Amadou-dot/PixelPerception.git
 
@@ -33,11 +32,9 @@ Make sure you have the following software installed on your machine:
     npm install
 
 ### Running the Project Locally
-Start the development server:
-
-    ```sh
-    npm run dev
-
-Open your browser and navigate to http://localhost:5173 to see the application running.
+4. Start the development server:
+```sh
+npm run dev
+```
 
 5. Open your browser and navigate to http://localhost:5173 to see the application running.
